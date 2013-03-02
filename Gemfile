@@ -11,8 +11,10 @@ end
 gem 'jquery-rails'
 gem 'thin', '>= 1.5.0'
 
-gem 'mysql2', :group => [:development, :test]
-gem 'pg', :group => [:production]
+#gem 'mysql2', :group => [:development, :test]
+#gem 'pg', :group => [:production]
+
+gem 'pg'
 
 gem 'rspec-rails', '>= 2.12.2', :group => [:development, :test]
 gem 'capybara', '>= 2.0.2', :group => :test
